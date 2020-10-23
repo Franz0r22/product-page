@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#header-img{
+  width: 6.2em;
+  display: block;
+  margin: auto;
+}
+#header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
+  position: fixed;
+  top: 0;
+}
+.wrap {
+  position: relative;
+}
+#nav-bar {
+  margin-left: -2em;
+}
+ul{
+  margin: 0.5em 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(129, 230, 216, 0.507);
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color:black;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#hero {
+  margin-top: 6.3em;
+  background-color:blue;
+  height: 1vp;
+  padding-bottom: 1.8em;
+}
+.text { 
+  margin: 0;
+}
+h3:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#product { 
+  background-color: black;
+  margin: 0;
+  height: 1vp;
+  padding-bottom: 1.8em;
+}
+#demo {
+  background-color: rgb(206, 206, 206);
+  margin: 0;
+  align-items: center;
+  color: black;
+  padding-bottom: 1.8em;
+}
+#video {
+  height: 300px;
+  max-width: 560px;
+  width: 100%;
+}
+#pre-sale {
+  background-color: whitesmoke;
+  color: black;
+  padding-bottom: 5em;
+}
+.img {
+  display: block;
+  margin: auto;
+  width: 5em;
+  padding-top: 1em;
+}
+.button {
+  height: 2.5em;
+  width: 10em;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+.button:hover {
+  background-color: cornflowerblue;
+  text-decoration: underline;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.field {
+  width: 20em;
+  height: 2em;
+  background-color: rgba(175, 175, 175, 0.384);
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid gray;
+}
+.field:focus {
+  border-color: blue;
+}
+
+/*mobile-friendly video frame and logo*/
+@media (max-width: 580px) {
+  #video {
+    height: 180px;
+    width: 80%;
+  }
+  #header-img {
+    width: 4em;
+  }
+  #hero {
+    margin-top: 4.65em;
+  }
+}
